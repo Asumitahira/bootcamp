@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Activity 4</title>
+</head>
+<body>
+  <h1>Please fill this survey form</h1>
+  <form action="#" method="#">
+    <table>
+      <tbody>
+        <tr>
+          <td><label for="firstname">First Name:</label></td>
+          <td><input type="text" name="first_name" id="firstname" required></td>
+
+          <td><label for="mi">MI:</label></td>
+          <td><input type="text" name="mi" id="mi" size="6" required></td>
+    
+          <td><label for="lastname">Last Name:</label></td>
+          <td><input type="text" name="last_name" id="lastname" required></td>
+        </tr>
+        <tr>
+          <td><label for="city">City:</label></td>
+          <td><input type="text" name="city" id="city" required></td>
+    
+          <td><label for="state">State:</label></td>
+          <td><input type="text" name="state" id="state" required></td>
+    
+          <td><label for="zipcode">Zip Code:</label></td>
+          <td><input type="text" name="zip_code" id="zipcode" required></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- <div> -->
+      <span>Choose a Sport:</span>
+      <br>
+      <input type="checkbox" name="sport" value="basketball" id="basketball">
+      <label for="basketball">Basketball</label>
+      <input type="checkbox" name="sport" value="football" id="football">
+      <label for="football">Football</label>
+      <input type="checkbox" name="sport" value="hockey" id="hockey">
+      <label for="hockey">Hockey</label>
+    <!-- </div> -->
+
+    <!-- <div> -->
+      <br>
+
+      <span>Choose a Year:</span>
+      <br>
+      <input type="radio" name="year" value="freshman" id="freshman">
+      <label for="freshman">Freshman</label>
+      <input type="radio" name="year" value="sophmore" id="sophmore">
+      <label for="sophmore">Sophmore</label>
+      <input type="radio" name="year" value="junior" id="junior">
+      <label for="junior">Junior</label>
+      <input type="radio" name="year" value="senior" id="senior">
+      <label for="senior">Senior</label>
+    <!-- </div> -->
+
+      <br>
+      
+    <!-- <div> -->
+      <label for="food">Choose Your Favorite Food:</label>
+      <br>
+      <select name="food" id="food" multiple>
+          <option value="chips">Chips</option>
+          <option value="pizza">Pizza</option>
+          <option value="nachos">Nachos</option>
+          <!-- <option value=""></option> -->
+      </select>
+    <!-- </div> -->
+
+      <br>
+
+    <!-- <div> -->
+    <textarea name="comments" cols="25" rows="5" placeholder="Please let us know your comments"></textarea>
+    <!-- </div> -->
+
+      <br>
+
+    <!-- <div> -->
+      <input type="submit" name="submit" value="Send it">
+      <button type="reset" name="submit">Clear it</button>
+    <!-- </div> -->
+  </form> 
+</body>
+</html>

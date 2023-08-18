@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+
+h1{
+    margin: 15px 0px;
+}
+
+.float-left{
+    width: 50%;
+    float: left;
+    box-shadow: 5px 5px 8px gray;
+}
+
+.float-right{
+    width: 50%;
+    float: left;
+    box-shadow: 5px 5px 8px gray;
+    /* margin-left: 20px; */
+}
+
+h4,p{
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+img{
+    height: 400px;
+    width: 300px;
+}
+
+.img-2{
+    border-radius: 15px 15px 0px 0px;
+}
+
